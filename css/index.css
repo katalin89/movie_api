@@ -1,0 +1,85 @@
+
+table{
+    
+    width: 100%;
+}
+
+tbody{
+    width: 100%;   
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.container-home{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    width: 100px;
+    gap: 40px;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.container-description{
+    display: flex;
+    flex-direction: row;
+    background-color:black; 
+    border: 2px solid red;
+    color: white;
+    width: 100%;
+}
+
+
+.background{
+    display: flex;
+    
+    border: 2px solid pink;
+    background-image: url("../images/film.jpg");
+    background-repeat: no-repeat;
+     height: 500px; 
+     width: 100%;
+}
+
+.description{
+    width: 300px;
+}
+
+.films{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap:10px
+}
+
+img{
+    width: 180px;
+}
+
+.title{
+    border: 2ps solid pink;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+/* tableta */
+/* @media (min-width:720) {
+
+    container-description
+    .
+}
+/*pc*/
+/* @media (min-width:1200px){
+
+
+} */ 
